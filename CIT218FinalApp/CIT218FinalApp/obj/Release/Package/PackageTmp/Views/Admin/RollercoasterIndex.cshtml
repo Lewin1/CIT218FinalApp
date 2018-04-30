@@ -1,0 +1,80 @@
+﻿@model IEnumerable<CIT218FinalApp.Models.Rollercoaster>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Manage Rollercosters - Index</h2>
+
+
+@using (@Html.BeginForm())
+{
+    <div class="container">
+        <div id="FilerSearch" class="col-md-8 col-lg-offset-2">
+            <div class="form-group">
+                @Html.Label("Search by User Name", htmlAttributes: new { @class = "control-label col-md-2" })
+                @Html.TextBox("searchByName", null, new { @class = "form-control" })
+            </div>
+
+            <div class="col-md-8 col-lg-offset-2">
+                <input type="submit" value="Find Users" class="btn col-md-2 col-md-offset-2" />
+                <input type="reset" value="Reset" onclick="location.href='@Url.Action("UserIndex", "Admin")'" class="btn col-md-2 col-md-offset-2" />
+            </div>
+        </div>
+    </div>
+    <br />
+}
+
+<p>
+    @Html.ActionLink("Create A New RollerCoster", "RollercoasterCreate")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Height)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Speed)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Location)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Height)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Speed)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Location)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "RollercoasterEdit", new { id = item.Id }) |
+                @Html.ActionLink("Details", "RollercoasterDetails", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "RollercoasterDelete", new { id = item.Id }) |
+                @Html.ActionLink("Reviews", "ReviewsByCoaster", new { id = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>
+
+@Html.ActionLink("Back to Admin Landing", "AdminLanding", "Admin")

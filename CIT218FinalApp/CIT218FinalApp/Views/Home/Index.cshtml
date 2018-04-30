@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<body>
+    <div class="container">
+        <div class="col-md-6 col-md-offset-2">
+            <h1>Rollercoasters</h1>
+            <hr/>
+        </div>
+        <br/>
+        <div class="col-md-6">
+            <br/>
+            <img src="~/Content/rollercoaster.jpg"/>
+            <p>Source: Knott's Berry Farm coaster - HangTime</p>
+        </div>
+        <div class="col-md-6">
+            <h2>What is a Roller Coaster?</h2>
+            <p>
+                A roller coaster is a type of amusement ride that employs a form of elevated railroad track designed with tight turns,
+                steep slopes, and sometimes inversions. People ride along the track in open cars, and the rides are often found in amusement
+                parks and theme parks around the world. LaMarcus Adna Thompson obtained one of the first known patents for a roller coaster
+                design in 1885, related to the Switchback Railway that opened a year earlier at Coney Island. The track in a coaster design
+                does not necessarily have to be a complete circuit, as shuttle roller coasters demonstrate. Most roller coasters have multiple
+                cars in which passengers sit and are restrained. Two or more cars hooked together are called a train. Some roller coasters,
+                notably wild mouse roller coasters, run with single cars.
+            </p>
+            <p>For more information about rollercoasters, <a href="https://en.wikipedia.org/wiki/Roller_coaster">Click Here</a>.</p>
+            <br />
+            <h3>To view some rollercoasters, @Html.ActionLink("Click Here", "RollercoasterIndex", "User")</h3>
+            <br />
+            <h3>To view all reviews, @Html.ActionLink("Click Here", "ReviewIndex", "User")</h3>
+        </div>
+    </div>
+</body>

@@ -1,0 +1,76 @@
+﻿@model IEnumerable<CIT218FinalApp.Models.Review>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+@using (@Html.BeginForm())
+{
+<div class="container">
+    <div id="FilerSearch" class="col-md-8 col-lg-offset-2">
+        <div class="form-group">
+            @Html.Label("Search by Name", htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.TextBox("searchByName", null, new { @class = "form-control" })
+        </div>
+
+        <div class="col-md-8 col-lg-offset-2">
+            <input type="submit" value="Find Reviews" class="btn col-md-2 col-md-offset-2" />
+            <input type="reset" value="Reset" onclick="location.href='@Url.Action("ReviewIndex", "Admin")'" class="btn col-md-2 col-md-offset-2" />
+        </div>
+    </div>
+</div>
+<br/>
+}
+<p>
+    @Html.ActionLink("Create New", "ReviewCreate")
+</p>
+
+<table class="table">
+    <tr>
+        <th>
+            Rollercoaster
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ReviewTitle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Content)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Rating)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @foreach(var r in ViewBag.rollercoasters)
+                {
+                    if (r.Id == item.RollercoasterId)
+                    {
+                        <p> @r.Name</p>
+                    }
+                }
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReviewTitle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Content)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rating)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "ReviewEdit", new { id = item.Id }) |
+                @Html.ActionLink("Details", "ReviewDetails", new { id = item.Id }) |
+                @Html.ActionLink("More Reviews", "ReviewsByCoaster", new { id = item.RollercoasterId }) |
+                @Html.ActionLink("Delete", "ReviewDelete", new { id = item.Id })
+            </td>
+        </tr>
+    }
+</table>
+@Html.ActionLink("Back to Admin Landing", "AdminLanding", "Admin")

@@ -1,0 +1,59 @@
+﻿@model IEnumerable<CIT218FinalApp.Models.Review>
+
+@{
+    ViewBag.Title = "ReviewsByUser";
+}
+
+<h2>My Reviews</h2>
+
+<p>
+
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Rollercoaster Name
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ReviewTitle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Content)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Rating)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @foreach (var r in ViewBag.Rollercoasters)
+            {
+                if (r.Id == item.RollercoasterId)
+                {
+                    <p>
+                        @r.Name
+                    </p>
+                }
+            }
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ReviewTitle)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Content)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Rating)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "ReviewEdit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "ReviewDetails", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "ReviewDelete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

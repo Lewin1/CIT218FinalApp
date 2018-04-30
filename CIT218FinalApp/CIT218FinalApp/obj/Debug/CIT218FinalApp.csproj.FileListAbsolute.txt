@@ -1,0 +1,217 @@
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\ApplicationInsights.config
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\CIT218FinalApp.dll.config
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\CIT218FinalApp.dll
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\CIT218FinalApp.pdb
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Antlr3.Runtime.dll
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\EntityFramework.dll
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AI.Web.dll
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.dll
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.dll
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Newtonsoft.Json.dll
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Owin.dll
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\System.Web.Helpers.dll
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\System.Web.Mvc.dll
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\System.Web.Optimization.dll
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\System.Web.Razor.dll
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\System.Web.WebPages.dll
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\WebGrease.dll
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\System.Web.Helpers.xml
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\System.Web.Mvc.xml
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\System.Web.Optimization.xml
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\System.Web.Razor.xml
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\System.Web.WebPages.xml
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Antlr3.Runtime.pdb
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Newtonsoft.Json.xml
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\EntityFramework.xml
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.xml
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.xml
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AI.Web.xml
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\obj\Debug\CIT218FinalApp.csprojResolveAssemblyReference.cache
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\obj\Debug\CIT218FinalApp.csproj.CoreCompileInputs.cache
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\obj\Debug\CIT218FinalApp.dll
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\obj\Debug\CIT218FinalApp.pdb
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\obj\Debug\CIT218FinalApp.Migrations.InitialCreate.resources
+C:\Users\Lewin1\Desktop\CIT218FinalApp\CIT218FinalApp\obj\Debug\CIT218FinalApp.csproj.GenerateResource.Cache
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\ApplicationInsights.config
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\CIT218FinalApp.dll.config
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\CIT218FinalApp.dll
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\CIT218FinalApp.pdb
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Antlr3.Runtime.dll
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\EntityFramework.dll
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\EntityFramework.SqlServer.dll
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AI.Agent.Intercept.dll
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AI.DependencyCollector.dll
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AI.Web.dll
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AI.WindowsServer.dll
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.ApplicationInsights.dll
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AspNet.Identity.Core.dll
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.dll
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.Cookies.dll
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.dll
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.Facebook.dll
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.Google.dll
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.OAuth.dll
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.Twitter.dll
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Web.Infrastructure.dll
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Newtonsoft.Json.dll
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Owin.dll
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\System.Web.Helpers.dll
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\System.Web.Mvc.dll
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\System.Web.Optimization.dll
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\System.Web.Razor.dll
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\System.Web.WebPages.Deployment.dll
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\System.Web.WebPages.dll
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\System.Web.WebPages.Razor.dll
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\WebGrease.dll
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\EntityFramework.xml
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\EntityFramework.SqlServer.xml
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\System.Web.Helpers.xml
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\System.Web.Mvc.xml
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\System.Web.Optimization.xml
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\System.Web.Razor.xml
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\System.Web.WebPages.xml
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\System.Web.WebPages.Deployment.xml
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\System.Web.WebPages.Razor.xml
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Antlr3.Runtime.pdb
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Newtonsoft.Json.xml
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AspNet.Identity.Core.xml
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.xml
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.xml
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.Facebook.xml
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.Cookies.xml
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.OAuth.xml
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.Google.xml
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.Twitter.xml
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.ApplicationInsights.xml
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AI.DependencyCollector.xml
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AI.WindowsServer.xml
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AI.Web.xml
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\obj\Debug\CIT218FinalApp.csprojResolveAssemblyReference.cache
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\obj\Debug\CIT218FinalApp.csproj.CoreCompileInputs.cache
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\obj\Debug\CIT218FinalApp.dll
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\obj\Debug\CIT218FinalApp.pdb
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\ApplicationInsights.config
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\CIT218FinalApp.dll.config
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\CIT218FinalApp.dll
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\CIT218FinalApp.pdb
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Antlr3.Runtime.dll
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\EntityFramework.dll
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\EntityFramework.SqlServer.dll
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AI.Agent.Intercept.dll
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AI.DependencyCollector.dll
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AI.Web.dll
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AI.WindowsServer.dll
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.ApplicationInsights.dll
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AspNet.Identity.Core.dll
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.dll
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.Cookies.dll
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.dll
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.Facebook.dll
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.Google.dll
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.OAuth.dll
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.Twitter.dll
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Web.Infrastructure.dll
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Newtonsoft.Json.dll
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Owin.dll
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\System.Web.Helpers.dll
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\System.Web.Mvc.dll
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\System.Web.Optimization.dll
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\System.Web.Razor.dll
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\System.Web.WebPages.Deployment.dll
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\System.Web.WebPages.dll
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\System.Web.WebPages.Razor.dll
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\WebGrease.dll
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\EntityFramework.xml
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\EntityFramework.SqlServer.xml
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\System.Web.Helpers.xml
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\System.Web.Mvc.xml
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\System.Web.Optimization.xml
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\System.Web.Razor.xml
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\System.Web.WebPages.xml
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\System.Web.WebPages.Deployment.xml
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\System.Web.WebPages.Razor.xml
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Antlr3.Runtime.pdb
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Newtonsoft.Json.xml
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AspNet.Identity.Core.xml
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.xml
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.xml
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.Facebook.xml
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.Cookies.xml
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.OAuth.xml
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.Google.xml
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.Twitter.xml
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.ApplicationInsights.xml
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AI.DependencyCollector.xml
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AI.WindowsServer.xml
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\bin\Microsoft.AI.Web.xml
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\obj\Debug\CIT218FinalApp.csprojResolveAssemblyReference.cache
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\obj\Debug\CIT218FinalApp.csproj.CoreCompileInputs.cache
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\obj\Debug\CIT218FinalApp.dll
+E:\CIT 218\CIT218FinalApp\CIT218FinalApp\obj\Debug\CIT218FinalApp.pdb
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\obj\Debug\CIT218FinalApp.Migrations.Initial.resources
+D:\CIT 218\CIT218FinalApp\CIT218FinalApp\obj\Debug\CIT218FinalApp.csproj.GenerateResource.Cache

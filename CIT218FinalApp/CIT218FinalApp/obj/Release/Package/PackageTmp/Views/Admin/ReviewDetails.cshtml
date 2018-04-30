@@ -1,0 +1,59 @@
+﻿@model CIT218FinalApp.Models.Review
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Review - Details</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Rollercoaster
+        </dt>
+
+        <dd>
+        @if(ViewBag.rollercoasters != null)
+        {
+            foreach (var r in ViewBag.rollercoasters)
+            {
+                if(r.Id == Model.RollercoasterId)
+                    {
+                    <p id="RollercoasterId" value="@r.Id">@r.Name</p>
+                    }
+                }
+            }
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ReviewTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ReviewTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Content)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Content)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Rating)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Rating)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "ReviewEdit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "ReviewIndex") |
+    @Html.ActionLink("Back to Admin Landing", "AdminLanding", "Admin")
+</p>

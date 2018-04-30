@@ -1,0 +1,94 @@
+﻿@model IEnumerable<CIT218FinalApp.Models.Review>
+
+@{
+    ViewBag.Title = "ReviewsByCoaster";
+}
+
+<h2>ReviewsByCoaster</h2>
+
+
+@using (@Html.BeginForm())
+{
+    <div class="container">
+        <div id="FilerSearch" class="col-md-8 col-lg-offset-2">
+            <div class="form-group">
+                @Html.Label("Search by Review Title", htmlAttributes: new { @class = "control-label col-md-2" })
+                @Html.TextBox("searchByName", null, new { @class = "form-control" })
+                <textarea id="id" name="id" value="@Model.FirstOrDefault().RollercoasterId" hidden="hidden">@Model.FirstOrDefault().RollercoasterId</textarea>
+            </div>
+
+            <div class="col-md-8 col-lg-offset-2">
+                <input type="submit" value="Find Rollercoasters" class="btn col-md-2 col-md-offset-2" />
+                <input type="reset" value="Reset" onclick="location.href='@Url.Action("ReviewsByCoaster", "User")'" class="btn col-md-2 col-md-offset-2" />
+            </div>
+        </div>
+    </div>
+    <br />
+}
+
+<body>
+    <div class="container">
+        @if (Model != null)
+        {
+            <h2>
+                Rollercoaster: @ViewBag.coasterName
+            </h2>
+            <p>
+                @Html.ActionLink("Create New Review", "ReviewCreate")
+            </p>
+            <table class="table">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.ReviewTitle)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Content)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Rating)
+                    </th>
+                    <th></th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ReviewTitle)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Content)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Rating)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Details", "ReviewDetails", new { id = item.Id })
+                        </td>
+                    </tr>
+                }
+
+            </table>
+
+            <div class="col-md-12">
+                <div class="col-md-12">
+                    @Html.ActionLink("Home", "Index", "Home") |
+                    @Html.ActionLink("Reviews List", "ReviewIndex") |
+                    @Html.ActionLink("Rollercoasters List", "RollercoasterIndex")
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="col-md-8 col-md-offset-2">
+                <h2>There are not reviews for this rollercoaster</h2>
+                <br />
+                <div class="col-md-12">
+                    @Html.ActionLink("Home", "Index", "Home") |
+                    @Html.ActionLink("Back to List", "ReviewIndex") |
+                    @Html.ActionLink("Back to List", "RollercoasterIndex")
+                </div>
+            </div>
+        }
+    </div>
+</body>
