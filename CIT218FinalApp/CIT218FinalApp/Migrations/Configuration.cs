@@ -188,7 +188,7 @@ namespace CIT218FinalApp.Migrations
                 new Models.Review()
             {
                 RollercoasterId = 1,
-                UserId = "80333663-766e-43be-8fee-b7f13f3ffce6",
+                UserId = "43ee843e-0239-4c97-9632-77d5d52dc8fa",
                 ReviewTitle = "Fun, but...",
                 Content = "Fun ride, two hour wait for 7 seconds of pure adrenaline.",
                 Rating = 3
@@ -197,7 +197,7 @@ namespace CIT218FinalApp.Migrations
                 new Models.Review()
             {
                 RollercoasterId = 1,
-                UserId = "80333663-766e-43be-8fee-b7f13f3ffce6",
+                UserId = "43ee843e-0239-4c97-9632-77d5d52dc8fa",
                 ReviewTitle = "Loved it!",
                 Content = "Great experience , tons of g-force.",
                 Rating = 5
@@ -206,7 +206,7 @@ namespace CIT218FinalApp.Migrations
                 new Models.Review()
             {
                 RollercoasterId = 1,
-                UserId = "80333663-766e-43be-8fee-b7f13f3ffce6",
+                UserId = "43ee843e-0239-4c97-9632-77d5d52dc8fa",
                 ReviewTitle = "This ride is crazy",
                 Content = "I have been on it and it was so cool. I can't believe that the third fastest roller coaster in the world is in Ohio.",
                 Rating = 4
@@ -215,7 +215,7 @@ namespace CIT218FinalApp.Migrations
                 new Models.Review()
             {
                 RollercoasterId = 2,
-                UserId = "80333663-766e-43be-8fee-b7f13f3ffce6",
+                UserId = "43ee843e-0239-4c97-9632-77d5d52dc8fa",
                 ReviewTitle = "Loved it!",
                 Content = "Hard to beat that first lift hill!  Great coaster!",
                 Rating = 5
@@ -224,7 +224,7 @@ namespace CIT218FinalApp.Migrations
                 new Models.Review()
             {
                 RollercoasterId = 2,
-                UserId = "80333663-766e-43be-8fee-b7f13f3ffce6",
+                UserId = "43ee843e-0239-4c97-9632-77d5d52dc8fa",
                 ReviewTitle = "It was Great!",
                 Content = "Millennium Force will forever be one of my favorite coasters! It's always such a rush and is just an all around amazing ride! I recommend front seat for this one.",
                 Rating = 5
@@ -233,7 +233,7 @@ namespace CIT218FinalApp.Migrations
                 new Models.Review()
             {
                 RollercoasterId = 2,
-                UserId = "80333663-766e-43be-8fee-b7f13f3ffce6",
+                UserId = "43ee843e-0239-4c97-9632-77d5d52dc8fa",
                 ReviewTitle = "Ride in the back",
                 Content = "Back row is where it's at, great airtime on the drop, and on the airtime hills. Great view of the lake. It's overated as heck but it's still fun.",
                 Rating = 4
@@ -242,7 +242,7 @@ namespace CIT218FinalApp.Migrations
                 new Models.Review()
             {
                 RollercoasterId = 2,
-                UserId = "74b01d63-3fe9-4c30-be78-61a37a1b0eb9",
+                UserId = "43ee843e-0239-4c97-9632-77d5d52dc8fa",
                 ReviewTitle = "Loved the Airtime",
                 Content = "Great ride, tons of airtime, and it feels like it never slows down. Any coaster enthusiast would absolutely LOVE this.",
                 Rating = 5
@@ -251,7 +251,7 @@ namespace CIT218FinalApp.Migrations
                 new Models.Review()
             {
                 RollercoasterId = 7,
-                UserId = "74b01d63-3fe9-4c30-be78-61a37a1b0eb9",
+                UserId = "43ee843e-0239-4c97-9632-77d5d52dc8fa",
                 ReviewTitle = "Best Wooden Coaster",
                 Content = "This is just the best wooden coaster standing.   Ride the back car for an outrageous experience",
                 Rating = 5
@@ -260,7 +260,7 @@ namespace CIT218FinalApp.Migrations
                 new Models.Review()
             {
                 RollercoasterId = 7,
-                UserId = "74b01d63-3fe9-4c30-be78-61a37a1b0eb9",
+                UserId = "43ee843e-0239-4c97-9632-77d5d52dc8fa",
                 ReviewTitle = "Don't miss this one",
                 Content = "I'd you don't ride El Toro your missing out on life",
                 Rating = 5
@@ -269,7 +269,7 @@ namespace CIT218FinalApp.Migrations
                 new Models.Review()
             {
                 RollercoasterId = 7,
-                UserId = "74b01d63-3fe9-4c30-be78-61a37a1b0eb9",
+                UserId = "43ee843e-0239-4c97-9632-77d5d52dc8fa",
                 ReviewTitle = "Loved it!",
                 Content = "Hands down the fastest, craziest, longest wooden coaster ever.",
                 Rating = 4
@@ -278,7 +278,7 @@ namespace CIT218FinalApp.Migrations
                 new Models.Review()
             {
                 RollercoasterId = 7,
-                UserId = "74b01d63-3fe9-4c30-be78-61a37a1b0eb9",
+                UserId = "43ee843e-0239-4c97-9632-77d5d52dc8fa",
                 ReviewTitle = "Amazing rollercoaster",
                 Content = "Amazing rollercoaster",
                 Rating = 5
@@ -287,7 +287,7 @@ namespace CIT218FinalApp.Migrations
                 new Models.Review()
             {
                 RollercoasterId = 11,
-                UserId = "74b01d63-3fe9-4c30-be78-61a37a1b0eb9",
+                UserId = "43ee843e-0239-4c97-9632-77d5d52dc8fa",
                 ReviewTitle = "Hasn't Aged Well",
                 Content = "It broke down while we were on it.",
                 Rating = 2
@@ -296,7 +296,7 @@ namespace CIT218FinalApp.Migrations
                 new Models.Review()
             {
                 RollercoasterId = 11,
-                UserId = "74b01d63-3fe9-4c30-be78-61a37a1b0eb9",
+                UserId = "43ee843e-0239-4c97-9632-77d5d52dc8fa",
                 ReviewTitle = "It's Great",
                 Content = "My family loved this",
                 Rating = 1
@@ -305,7 +305,7 @@ namespace CIT218FinalApp.Migrations
                 new Models.Review()
             {
                 RollercoasterId = 11,
-                UserId = "f71d64f6-517c-4466-b732-a02e6b65da09",
+                UserId = "43ee843e-0239-4c97-9632-77d5d52dc8fa",
                 ReviewTitle = "Surprisingly Smooth",
                 Content = "Best wooden coaster I've ever been on and it's smooth, unlike most wooden coasters ",
                 Rating = 1
@@ -314,7 +314,7 @@ namespace CIT218FinalApp.Migrations
                 new Models.Review()
             {
                 RollercoasterId = 11,
-                UserId = "f71d64f6-517c-4466-b732-a02e6b65da09",
+                UserId = "43ee843e-0239-4c97-9632-77d5d52dc8fa",
                 ReviewTitle = "Not worth it",
                 Content = "The wait time is not worth the 30 second ride. Overrated ride and no neck support equals sore neck.",
                 Rating = 1
@@ -323,7 +323,7 @@ namespace CIT218FinalApp.Migrations
                 new Models.Review()
             {
                 RollercoasterId = 16,
-                UserId = "f71d64f6-517c-4466-b732-a02e6b65da09",
+                UserId = "43ee843e-0239-4c97-9632-77d5d52dc8fa",
                 ReviewTitle = "It's a Beast!",
                 Content = "All-time favorite coaster for speed and flying through the woods.",
                 Rating = 5
@@ -332,7 +332,7 @@ namespace CIT218FinalApp.Migrations
                 new Models.Review()
             {
                 RollercoasterId = 16,
-                UserId = "f71d64f6-517c-4466-b732-a02e6b65da09",
+                UserId = "43ee843e-0239-4c97-9632-77d5d52dc8fa",
                 ReviewTitle = "First-time Riders",
                 Content = "If you're going to ride the Beast set up front first then wait for the back seat where it's more like wagging the tail and is absolutely fantastic and he just bounced around like riding a wild Bronco.",
                 Rating = 5
@@ -341,7 +341,7 @@ namespace CIT218FinalApp.Migrations
                 new Models.Review()
             {
                 RollercoasterId = 16,
-                UserId = "f71d64f6-517c-4466-b732-a02e6b65da09",
+                UserId = "43ee843e-0239-4c97-9632-77d5d52dc8fa",
                 ReviewTitle = "Not the best",
                 Content = "A little rough but a fast and long trip thtough the woods. Great night ride.",
                 Rating = 3
@@ -350,7 +350,7 @@ namespace CIT218FinalApp.Migrations
                 new Models.Review()
             {
                 RollercoasterId = 16,
-                UserId = "f71d64f6-517c-4466-b732-a02e6b65da09",
+                UserId = "43ee843e-0239-4c97-9632-77d5d52dc8fa",
                 ReviewTitle = "Better At night",
                 Content = "Best ride at Kings Island. Even better after dark. Mystic Timbers a close second (after dark).",
                 Rating = 5
@@ -359,7 +359,7 @@ namespace CIT218FinalApp.Migrations
                 new Models.Review()
             {
                 RollercoasterId = 19,
-                UserId = "f71d64f6-517c-4466-b732-a02e6b65da09",
+                UserId = "43ee843e-0239-4c97-9632-77d5d52dc8fa",
                 ReviewTitle = "So Good",
                 Content = "It's obviously the best in the park.",
                 Rating = 5

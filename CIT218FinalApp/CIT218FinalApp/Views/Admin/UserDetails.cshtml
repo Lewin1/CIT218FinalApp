@@ -5,7 +5,7 @@
     int x = 0;
 }
 
-<h2>Details</h2>
+<h2>Admin - User Details</h2>
 
 <div>
     <hr />
@@ -29,11 +29,33 @@
             @Html.DisplayNameFor(model => model.Role)
         </dt>
         @foreach (var m in ViewBag.Roles)
-        {
-            <dd>
-                @m
-            </dd>
-        }
+    {
+        <dd>
+            @m
+        </dd>
+}
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Age)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Age)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.LastName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
 
     </dl>
 </div>

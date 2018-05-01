@@ -34,7 +34,7 @@
                 Rollercoaster: @ViewBag.coasterName
             </h2>
             <p>
-                @Html.ActionLink("Create New Review", "ReviewCreate")
+                @Html.ActionLink("Write a Review", "ReviewCreate", new { id = Model.First().RollercoasterId })
             </p>
             <table class="table">
                 <tr>

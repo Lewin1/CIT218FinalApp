@@ -7,24 +7,24 @@
 
 <body>
     <div class="container">
-    @using (@Html.BeginForm())
-    {
-        <br/>
-    <div class="container">
-        <div id="FilerSearch" class="col-md-8 col-lg-offset-2">
-            <div class="form-group">
-                @Html.Label("Search by Name", htmlAttributes: new { @class = "control-label col-md-2" })
-                @Html.TextBox("searchByName", null, new { @class = "form-control" })
-            </div>
+        @using (@Html.BeginForm())
+        {
+            <br />
+            <div class="container">
+                <div id="FilerSearch" class="col-md-8 col-lg-offset-2">
+                    <div class="form-group">
+                        @Html.Label("Search by Name", htmlAttributes: new { @class = "control-label col-md-2" })
+                        @Html.TextBox("searchByName", null, new { @class = "form-control" })
+                    </div>
 
-            <div class="col-md-8 col-lg-offset-2">
-                <input type="submit" value="Find Reviews" class="btn col-md-2 col-md-offset-2" />
-                <input type="reset" value="Reset" onclick="location.href='@Url.Action("ReviewsByCoaster", "Admin")'" class="btn col-md-2 col-md-offset-2" />
+                    <div class="col-md-12">
+                        <input type="submit" value="Find Reviews" class="btn col-md-4 col-md-offset-2" />
+                        <input type="reset" value="Reset" onclick="location.href='@Url.Action("ReviewsByCoaster", "Admin")'" class="btn col-md-4 col-md-offset-2" />
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-    <br />
-    }
+            <br />
+        }
         @if (Model != null)
         {
             <h2>
@@ -80,5 +80,9 @@
                 </div>
             </div>
         }
+        <div class="col-md-12">
+            @Html.ActionLink("Back to List", "ReviewIndex") |
+            @Html.ActionLink("Back to Admin Landing", "AdminLanding", "Admin")
+        </div>                             
     </div>
 </body>

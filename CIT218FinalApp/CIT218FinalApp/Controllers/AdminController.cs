@@ -146,6 +146,9 @@ namespace CIT218FinalApp.Controllers
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
             Review review = db.reviews.Find(id);
+            List<Rollercoaster> rollercoasters = db.rollercoasters.ToList();
+
+            ViewBag.rollercoasters = rollercoasters;
             if (review == null)
             {
                 return HttpNotFound();
@@ -164,7 +167,8 @@ namespace CIT218FinalApp.Controllers
         public ActionResult ReviewCreate([Bind(Include = "Id,RollercoasterId,ReviewTitle,Content,Rating")] Review review)
         {
             ViewBag.rollercoasters = db.rollercoasters.ToList();
-            if (ModelState.IsValid)
+
+            if (review.ReviewTitle != null && review.UserId != null && review.RollercoasterId != null)
             {
                 review.UserId = User.Identity.GetUserId();
                 db.reviews.Add(review);
@@ -195,9 +199,14 @@ namespace CIT218FinalApp.Controllers
         public ActionResult ReviewEdit([Bind(Include = "Id,RollercoasterId,ReviewTitle,Content,Rating")] Review review)
         {
             ViewBag.rollercoasters = db.rollercoasters.ToList();
-            if (ModelState.IsValid)
+            review.UserId = db.reviews.Where(r => r.Id == review.Id).First().UserId;
+
+            if (review.ReviewTitle != null && review.UserId != null && review.RollercoasterId != null)
             {
-                db.Entry(review).State = EntityState.Modified;
+                db.reviews.Remove(db.reviews.Where(r => r.Id == review.Id).First());
+                db.SaveChanges();
+
+                db.reviews.Add(review);
                 db.SaveChanges();
                 return RedirectToAction("ReviewIndex");
             }
@@ -308,7 +317,7 @@ namespace CIT218FinalApp.Controllers
         
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult UserCreate([Bind(Include = "UserName,Email,Role,Password,ConfirmPassword")] UserViewModel userViewModel)
+        public ActionResult UserCreate([Bind(Include = "UserName,Email,Role,Password,ConfirmPassword,Age,FirstName,LastName")] UserViewModel userViewModel)
         {
             if (ModelState.IsValid)
             {
@@ -352,7 +361,7 @@ namespace CIT218FinalApp.Controllers
         
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult UserEdit([Bind(Include = "UserName,Email,Role,Password,ConfirmPassword")] UserViewModel userViewModel)
+        public ActionResult UserEdit([Bind(Include = "UserName,Email,Role,Password,ConfirmPassword,Age,FirstName,LastName")] UserViewModel userViewModel)
         {
             if (ModelState.IsValid)
             {
@@ -447,6 +456,9 @@ namespace CIT218FinalApp.Controllers
             appUser.UserName = UVM.UserName;
             appUser.Email = UVM.Email;
             appUser.Password = UVM.Password;
+            appUser.Age = UVM.Age;
+            appUser.FirstName = UVM.FirstName;
+            appUser.LastName = UVM.LastName;
 
             return appUser;
         }
@@ -458,6 +470,11 @@ namespace CIT218FinalApp.Controllers
             uvm.UserName = AU.UserName;
             uvm.Email = AU.Email;
             uvm.Role = GetUserRoles(AU);
+            uvm.Password = AU.Password;
+            uvm.ConfirmPassword = AU.Password;
+            uvm.Age = AU.Age;
+            uvm.FirstName = AU.FirstName;
+            uvm.LastName = AU.LastName;
 
             return uvm;
         }

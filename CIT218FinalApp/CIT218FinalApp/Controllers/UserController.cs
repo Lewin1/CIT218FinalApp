@@ -68,7 +68,7 @@ namespace CIT218FinalApp.Controllers
                 review.UserId = User.Identity.GetUserId();
                 db.reviews.Add(review);
                 db.SaveChanges();
-                return RedirectToAction("RollercoasterIndex");
+                return RedirectToAction("ReviewsByCoaster", "User", new { id = review.RollercoasterId });
             }
 
             return View(review);
@@ -121,11 +121,11 @@ namespace CIT218FinalApp.Controllers
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
 
-            Review review = db.reviews.Find(id);
+            Review review = db.reviews.Where(r => r.Id == id).FirstOrDefault();
 
             if (review.UserId != User.Identity.GetUserId())
             {
-                return RedirectToAction("Index", "Home");
+                return Redirect(Request.UrlReferrer.ToString());
             }
 
             if (review == null)
@@ -138,7 +138,7 @@ namespace CIT218FinalApp.Controllers
         
         [HttpPost, ActionName("ReviewDelete")]
         [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(int id)
+        public ActionResult ReviewDeleteConfirmed(int id)
         {
             Review review = db.reviews.Find(id);
 
@@ -149,7 +149,7 @@ namespace CIT218FinalApp.Controllers
 
             db.reviews.Remove(review);
             db.SaveChanges();
-            return RedirectToAction("Index");
+            return RedirectToAction("ReviewsByUser", "User", new { id = User.Identity.GetUserId() });
         }
 
         public ActionResult ReviewsByCoaster(int? id, string searchByName)
